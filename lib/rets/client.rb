@@ -231,7 +231,7 @@ module Rets
         "Resource" => opts.fetch(:resource),
         "Type"     => opts.fetch(:object_type),
         "ID"       => "#{opts.fetch(:resource_id)}:#{object_id}",
-        "Location" => opts.fetch(:location, 0)
+        "Location" => opts.fetch(:location, 1)
       }
 
       extra_headers = {
